@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.services {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+}
+/* Header box styling */
+header {
+    background-color: #003366; /* Dark Blue Background */
+}
+
+.header-box {
+    background-color: #003366; /* Dark Blue Background */
+    color: white;
+    padding: 20px;
+    border-bottom: 2px solid black; /* Black border at the bottom */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-box .logo {
+    max-width: 150px;
+}
+
+.header-box h1 {
+    margin: 10px 0 0;
+}
+
+.left-header {
+    background-color: #007bff; /* Blue */
+    padding: 20px;
+    flex: 1;
+    text-align: left;
+}
+
+.right-header {
+    background-color: #ff6348; /* Red */
+    flex: 1;
+    text-align: right;
+}
+
+header h1 {
+    margin: 0;
+}
+nav {
+    background-color: #003366; /* Dark Blue Background */
+    border-bottom: 2px solid black; /* Black bottom border */
+}
+
+.navbar-nav .nav-item {
+    border-right: 2px solid black; /* Black border between items */
+}
+
+.navbar-nav .nav-item:last-child {
+    border-right: none; /* Remove border from the last item */
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* White text color */
+    font-weight: bold;
+    padding: 15px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #d0f0c0; /* Light green background on hover */
+    color: #003366 !important; /* Dark blue text on hover */
+}
+
+/* Ensure the navbar is responsive and collapses properly */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-top: 15px;
+    }
+}
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #007bff; /* Blue */
+}
+
+.section p {
+    color: #333; /* Dark Gray */
+}
+
+footer {
+    background-color: #007bff; /* Blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.header-box {
+    background-color: #ffffff;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 50%; /* Elliptical frame */
+    display: inline-block;
+    padding: 10px;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+}
+
+.company-name {
+    margin: 10px 0;
+    color: #007bff; /* Blue */
+}
+
+.marquee-container {
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.marquee-text {
+    font-size: 16px;
+    color: #333; /* Dark Gray */
+    background-color: #f5f5f5; /* Light Gray */
+    padding: 10px;
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color: #003366; /* Dark Blue */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin: 0 15px;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #b3ffb3; /* Light Green */
+    color: #003366; /* Dark Blue */
+}
+nav {
+    background-color: white;
+    color: white;
+    padding: 10px 0; /* Adjust padding as needed */
+    border: 1px solid #000; /* Added border style */
+}
+
+.nav-container {
+    display: flex; /* Flexbox layout for horizontal alignment */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.nav-container span {
+    margin: 0 5px; /* Space between buttons */
+}
+
+.nav-container a {
+    display: block; /* Block-level for better padding and spacing */
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px; /* Add padding for button-like appearance */
+    border-radius: 5px; /* Rounded corners */
+    background-color: cornflowerblue; /* Slightly different background for the buttons */
+}
+
+.nav-container a:hover {
+    background-color: #666; /* Darker background on hover */
+    border-color: goldenrod; /* Highlight the border on hover */
+}
+
